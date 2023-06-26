@@ -1,0 +1,93 @@
+
+.classify {
+		display: flex;
+		flex-direction: row;
+		height: 100vh;
+}
+.bar {
+		width: 6.25rem;
+		height: 100%;
+		/* border-right: 1px solid #d8d8d8; */
+		background-color: #F8F8F8;
+}
+.bar-list-item {
+		font-size: 0.9375rem;
+		height: 3.125rem;
+		line-height: 3.125rem;
+		text-align: center;
+		color: #888888;
+		border-left: 3px solid transparent;
+}
+.activeTab {
+		border-left: 3px solid #2B9939;
+		background-color: #FFFFFF;
+		/* transition: all .3s ease-in; */
+		color: #000000;
+}
+.right-content {
+		flex: 1;
+		margin-left: 0.9375rem;
+}
+.good-item {
+		display: flex;
+		margin-top: 0.9375rem;
+		width: 16.875rem;
+		height: 6.875rem;
+}
+.good-image {
+		width: 7.1875rem;
+		height: 6.875rem;
+}
+.right-slide {
+		position: relative;
+		margin-left: 0.9375rem;
+}
+.good-name {
+		width: 100%;
+		font-size: 0.9375rem;
+}
+.good-sale-num {
+		margin-top: 0.3125rem;
+		font-size: 0.8125rem;
+		color: #787878;
+}
+.sale-num {
+		color: #d37e53;
+		margin: 0 0.3125rem;
+}
+.good-price{
+		position: absolute;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		width: 10rem;
+		margin-top: 0.625rem;
+}
+.discount-price{
+		font-size: 0.8125rem;
+		color: #c73634;
+		font-weight: bold;
+}
+.big-font{
+		font-size: 1.25rem;
+}
+.market-price{
+		font-size: 0.625rem;
+		color: #a9a9a9;
+		text-decoration: line-through;
+}
+.item-buy{
+		position: absolute;
+		top: 0.46875rem;
+		right: 0.625rem;
+		width: 1.125rem;
+		height: 1.25rem;
+		background-image: url('../../static/images/home/tianjia.png');
+		background-repeat: no-repeat;
+		background-size: 75%;
+		background-color: transparent;
+}
+.item-buy::after{
+		border: 0;
+		outline: 0;
+}

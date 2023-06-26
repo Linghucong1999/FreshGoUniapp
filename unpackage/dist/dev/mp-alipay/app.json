@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/index",
+    "pages/shopCart/index",
+    "pages/mine/index",
+    "pages/mine/login",
+    "pages/mine/register",
+    "pages/good/detail"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#AFCEA4",
+    "selectedColor": "#2B9939",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/images/tabbar/shouye.png",
+        "activeIcon": "static/images/tabbar/shouye-active.png"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "name": "分类",
+        "icon": "static/images/tabbar/fenlei.png",
+        "activeIcon": "static/images/tabbar/fenlei-active.png"
+      },
+      {
+        "pagePath": "pages/shopCart/index",
+        "name": "购物车",
+        "icon": "static/images/tabbar/gouwuche.png",
+        "activeIcon": "static/images/tabbar/gouwuche-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "name": "我的",
+        "icon": "static/images/tabbar/wode.png",
+        "activeIcon": "static/images/tabbar/wode-active.png"
+      }
+    ]
+  },
+  "subPackageBuildType": "shared",
+  "usingComponents": {}
+}

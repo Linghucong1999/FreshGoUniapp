@@ -1,0 +1,1 @@
+<view class="good-item"><image class="item-image" src="{{a}}" bindtap="{{b}}"></image><view class="item-name">{{c}}</view><view class="item-under"><text class="item-discount-price">{{d}}元/{{e}}</text><text class="item-market-price">{{f}}元/{{g}}</text><button class="item-buy" bindtap="{{h}}"></button></view></view>
